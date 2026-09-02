@@ -2615,6 +2615,22 @@ priority predicted from the start, and it is the standing argument for Tooling 1
 `manage_candidates.py` sync hook. The next sweep should be a low-ID catch-up band from 00007
 rather than a continuation above 06810.
 
+### Update 2026-09-02 — RESOLVED: 0 mechanical pairs remain
+
+A 2026-09-02 `systemic-fix` run selected this item and, before opening any entry, re-ran the
+detector: `check_stale_noentry.py --summary` and `--mechanical --json` both report **0 A1/A2
+pairs dictionary-wide** (4,380 `noentry` instances examined; all fall in classes B/C/D/R/A3 or
+unresolved). The 123-pair residue the 2026-08-29 update measured — including the 41 below 06811
+and the predicted low-ID leak — is gone. The most likely cause is the 2026-09-02 dictionary-wide
+mechanical relink (`build/auto_link.py`, 1,007,002 links placed as part of the Routine v3
+overhaul; see `PROJECT_STATUS.md`), which appears to have re-resolved the remaining short-base
+`noentry` markers as a side effect of its own headword/reading match, on top of the incidental
+9-marker link from the 2026-08-29 new-entries run (30734–30753). No entries were opened or
+changed this run. **Status set to `resolved`, `scope_estimate: 0`** in `backlog-queue.json`. The
+underlying leak mechanism (new-entries runs creating targets for markers written earlier) is
+unchanged, so if `--mechanical --json` ever returns pairs again, reopen this item rather than
+filing a duplicate.
+
 
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
